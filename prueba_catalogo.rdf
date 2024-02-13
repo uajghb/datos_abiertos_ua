@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:time="http://www.w3.org/2006/time#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:tema="http://datos.gob.es/kos/sector-publico/sector/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  
+	<dcat:Catalog>
+		<dct:title xml:lang="es">Catálogo de datos de la Universidad de Alicante</dct:title>
+		<dct:title xml:lang="ca">Catàleg de dades de la Universitat d’Alacant</dct:title>
+		<dct:description xml:lang="es">Catálogo que engloba conjuntos de datos recopilados por la Universidad de Alicante relativos a diferentes áreas de su actividad.</dct:description>
+		<dct:description xml:lang="ca">Catàleg que engloba conjunts de dades recopilades per la Universitat d'Alacant relatius a diferents àrees de la seua activitat.</dct:description>
+		<dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/U00100001"/>
+		<dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/educacion"/>
+		<dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-09T13:06:49.5584915+01:00</dct:issued>
+		<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-09T13:06:49.5584915+01:00</dct:modified>
+		<dct:language>es</dct:language>
+		<dct:language>ca</dct:language>
+		<foaf:homepage rdf:resource="https://utc.ua.es/es/datos/la-ua-en-cifras.html"/>
+		<dct:license rdf:resource="https://utc.ua.es/es/datos/la-ua-en-cifras.html"/>
+		<dcat:dataset>
+			<dcat:Dataset>
+				<dct:title xml:lang="es">Oferta. Distribución por grado. Curso 2020-21.</dct:title>
+				<dct:title xml:lang="ca">Oferta. Distribució per grau. Curs 2021-22.</dct:title>
+				<dct:description xml:lang="es">Información sobre el número de plazas ofertadas por la Universidad de Alicante en el curso 2020-21 agrupadas por titulación. </dct:description>
+				<dct:description xml:lang="ca">Informació sobre el nombre de places oferides per la Universitat d'Alacant en el curs 2020-21 agrupades per titulació.</dct:description>
+				<dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/educacion"/>
+				<dcat:keyword xml:lang="es">Universidad</dcat:keyword>
+				<dcat:keyword xml:lang="es">Plazas</dcat:keyword>
+				<dcat:keyword xml:lang="ca">Places</dcat:keyword>
+				<dcat:keyword xml:lang="ca">Universitat</dcat:keyword>
+				<dct:language>es</dct:language>
+				<dct:language>ca</dct:language>
+				<dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/U00100001"/>
+				<dct:issued>2021-04-26T08:47:00+02:00</dct:issued>
+				<dct:modified>2021-04-26T08:47:00+02:00</dct:modified>
+				<dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunitat-Valenciana"/>
+				<dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
+				<dcat:distribution>
+					<dcat:Distribution>
+						<dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23300</dcat:byteSize>
+						<dct:identifier>https://utc.ua.es/es/documentos/ua-en-cifras/anual/2020/02-1-5-2-oferta-grado-titulacion-nuevo.xlsx</dct:identifier>
+						<dct:title xml:lang="ca">Oferta. Distribució per grau. Curs 2020-21.</dct:title>
+						<dcat:accessURL>https://utc.ua.es/es/documentos/ua-en-cifras/anual/2020/02-1-5-2-oferta-grado-titulacion-nuevo.xlsx</dcat:accessURL>
+						<dct:title xml:lang="es">Oferta. Distribución por grado. Curso 2020-21. </dct:title>
+					</dcat:Distribution>
+				</dcat:distribution>
+			</dcat:Dataset>
+		</dcat:dataset>
+		<dcat:dataset>
+			<dcat:Dataset>
+				<dct:title xml:lang="es">Becas y ayudas al estudio. Curso 2019-20.</dct:title>
+				<dct:title xml:lang="ca">Beques i ajudes a l'estudi. Curs 2019-20.</dct:title>
+				<dct:description xml:lang="es">Cuantías destinadas a financiar las convocatorias de becas agrupadas por organismo. También se hace referencia a ayudas no financiadas 
+				con carácter finalista por la comunidad autónoma ni por la AGE.	</dct:description>
+				<dct:description xml:lang="ca">Quanties destinades a finançar les convocatòries de beques agrupades per organisme. També es fa referència a ajudes no finançades 
+			amb caràcter finalista per la comunitat autònoma ni per la AGE.</dct:description>
+				<dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/educacion"/>
+				<dcat:keyword xml:lang="es">Universidad</dcat:keyword>
+				<dcat:keyword xml:lang="es">Becas</dcat:keyword>
+				<dcat:keyword xml:lang="es">Ayudas</dcat:keyword>
+				<dcat:keyword xml:lang="ca">Beques</dcat:keyword>
+				<dcat:keyword xml:lang="ca">Universitat</dcat:keyword>
+				<dcat:keyword xml:lang="ca">Ajudes</dcat:keyword>
+				<dct:language>es</dct:language>
+				<dct:language>ca</dct:language>
+				<dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/U00100001"/>
+				<dct:issued>2022-06-06T09:20:00+02:00</dct:issued>
+				<dct:modified>2022-06-06T09:20:00+02:00</dct:modified>
+				<dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunitat-Valenciana"/>
+				<dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
+				<dcat:distribution>
+					<dcat:Distribution>
+						<dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13600</dcat:byteSize>
+						<dct:identifier>https://utc.ua.es/es/documentos/ua-en-cifras/anual/2020/03-becas.xlsx</dct:identifier>
+						<dct:title xml:lang="ca">Beques i ajudes a l'estudi. Curs 2019-20.</dct:title>
+						<dcat:accessURL>https://utc.ua.es/es/documentos/ua-en-cifras/anual/2020/03-becas.xlsx</dcat:accessURL>
+						<dct:title xml:lang="es">Becas y ayudas al estudio. Curso 2019-20. </dct:title>
+					</dcat:Distribution>
+				</dcat:distribution>
+			</dcat:Dataset>
+		</dcat:dataset>
+	</dcat:Catalog>
+</rdf:RDF>
